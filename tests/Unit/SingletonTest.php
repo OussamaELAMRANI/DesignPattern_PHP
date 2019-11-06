@@ -21,7 +21,7 @@ class SingletonTest extends TestCase
         $instance1 = spl_object_hash($self1);
         $instance2 = spl_object_hash($self2);
 
-        $this->assertNotEquals($instance1, $instance2);
+        $this->assertEquals($instance1, $instance2);
 
     }
 }

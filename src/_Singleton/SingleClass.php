@@ -2,7 +2,7 @@
 
 namespace App\_Singleton;
 
-class SingleClass
+class  SingleClass
 {
     /**
      * @var SingleClass
